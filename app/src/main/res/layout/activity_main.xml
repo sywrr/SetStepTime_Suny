@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_SetStepTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/SetStepTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/SetStepTimeText"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDecrease"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#979294"
+            android:text="@string/DecreaseText"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:rippleColor="@color/rippleColor"
+            app:cornerRadius="8dp"/>
+        <TextView
+            android:id="@+id/bauText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="4.5"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnIncrease"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#979294"
+            android:text="@string/IncreaseText"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:rippleColor="@color/rippleColor"
+            app:cornerRadius="8dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_SetStepTime"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/SetBaudrateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/SetBaudrateText"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"/>
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/BauSpinner"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            app:ms_text_color="@color/spinnerTextColor"
+            app:ms_background_color="#979294"
+            android:keyboardNavigationCluster="true"
+            app:ms_arrow_tint="#000000" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

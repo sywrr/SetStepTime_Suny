@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SetStepTime</string>
+    <string name="DecreaseText">-</string>
+    <string name="IncreaseText">+</string>
+    <string name="SetStepTimeText">设置时延值：</string>
+    <string name="SetBaudrateText">设置波特率：</string>
+
+    <string-array name="baudrate">
+        <item>9600</item>
+        <item>14400</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>56000</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+</resources>
