@@ -1,6 +1,7 @@
-package com.sunnyweater.setsteptime
+package com.sunnyweater.setsteptime.logic
 
 import android.widget.Toast
+import com.sunnyweater.setsteptime.MyApplication
 import java.math.BigDecimal
 
 object Utils {

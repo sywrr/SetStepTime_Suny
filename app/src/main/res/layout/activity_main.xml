@@ -58,6 +58,7 @@
 
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/layout_setBaud"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/layout_SetStepTime"
@@ -82,6 +83,39 @@
             android:keyboardNavigationCluster="true"
             app:ms_arrow_tint="#000000" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_setBaud"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOk"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="140dp"
+            android:backgroundTint="#979294"
+            android:text="@string/TextOk"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:rippleColor="@color/rippleColor"
+            app:cornerRadius="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#979294"
+            android:text="@string/TextCancel"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:rippleColor="@color/rippleColor"
+            app:cornerRadius="8dp"/>
     </LinearLayout>
 
 

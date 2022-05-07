@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-SetStepTime.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-SetStepTime.iml" group="SetStepTime" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SetStepTime.iml" filepath="$PROJECT_DIR$/.idea/modules/SetStepTime.iml" group="SetStepTime" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="SetStepTime/app" />
     </modules>

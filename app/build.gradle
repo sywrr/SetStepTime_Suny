@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     buildFeatures {
-        viewBinding true
+         viewBinding true
     }
     defaultConfig {
         applicationId "com.sunnyweater.setsteptime"
